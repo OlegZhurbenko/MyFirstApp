@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
     <string name="btn_SetNow">Set Now</string>
+    <string name="btn2_SetActivity">New Activity</string>
+    <string name="btn3_SetFinish">Finish</string>
+    <string name="btn4_ShowToast">ShowToast</string>
+    <string name="btn5_ORIENTATION">ORIENTATION</string>
     <string name="HelloWorld">Hello World!</string>
 </resources>

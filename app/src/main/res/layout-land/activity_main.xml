@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HelloWorld"
+            android:id="@+id/textView2"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="50dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="14dp"/>
+    <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarView" android:visibility="visible"
+    />
+    <Button
+            android:text="@string/btn_SetNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="sayHello" android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/button2"/>
+    <Button
+            android:text="@string/btn2_SetActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="goToSecondActivity"
+            android:layout_above="@+id/button4" android:layout_alignStart="@+id/button4"/>
+    <Button
+            android:text="@string/btn4_ShowToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4" android:onClick="onShowToast"
+            android:layout_marginEnd="42dp" android:layout_marginBottom="49dp"
+            android:layout_alignParentEnd="true" android:layout_alignParentBottom="true"/>
+    <TextView
+            android:text="@string/HelloWorld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true" android:layout_marginTop="11dp"
+            android:layout_alignStart="@+id/textView2"/>
+    <Button
+            android:text="@string/btn5_ORIENTATION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5" android:onClick="onPositoin" android:layout_alignParentTop="true"
+            android:layout_marginTop="109dp" android:layout_alignStart="@+id/button"/>
+
+</RelativeLayout>
