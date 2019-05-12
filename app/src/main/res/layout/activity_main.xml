@@ -17,7 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/calendarView" android:visibility="visible"
-    />
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="11dp"/>
     <Button
             android:text="@string/btn_SetNow"
             android:layout_width="wrap_content"
